@@ -6,29 +6,29 @@ This project demonstrates the application of association rule mining using the A
 ## Contents
 
 1. **Data Preprocessing:**
-  - Loading and cleaning the dataset.
-  - One-hot encoding categorical variables to prepare the data for association rule mining.
+    - Loading and cleaning the dataset.
+    - One-hot encoding categorical variables to prepare the data for association rule mining.
 
 2. **Frequent Pattern Mining:**
-  - Using the Apriori algorithm to find frequent itemsets with a specified minimum support.
-  - Displaying the resulting itemsets and their support values.
+    - Using the Apriori algorithm to find frequent itemsets with a specified minimum support.
+    - Displaying the resulting itemsets and their support values.
 
 3. **Association Rule Generation:**
-  - Applying the association rule mining algorithm to extract relationships from the frequent itemsets.
-  - Filtering the rules based on confidence and support thresholds.
+    - Applying the association rule mining algorithm to extract relationships from the frequent itemsets.
+    - Filtering the rules based on confidence and support thresholds.
 
 4. **Analysis and Interpretation:**
-  - Understanding the relationships among attributes.
-  - Saving the resulting rules to a CSV file for further analysis.
-  
+    - Understanding the relationships among attributes.
+    - Saving the resulting rules to a CSV file for further analysis.
+    
 ## Key Functions and Methods
-- fp.apriori(): Finds frequent itemsets using the Apriori algorithm.
-- fp.association_rules(): Generates association rules based on frequent itemsets.
+  - fp.apriori(): Finds frequent itemsets using the Apriori algorithm.
+  - fp.association_rules(): Generates association rules based on frequent itemsets.
 
 ## Parameters
-- min_support: Minimum support threshold for frequent itemsets.
-- metric: Metric to evaluate the strength of association rules (e.g., confidence).
-- min_threshold: Minimum threshold for the metric.
+  - min_support: Minimum support threshold for frequent itemsets.
+  - metric: Metric to evaluate the strength of association rules (e.g., confidence).
+  - min_threshold: Minimum threshold for the metric.
 
 ## Instructions
 To execute the notebook, follow these steps:
